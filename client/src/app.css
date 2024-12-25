@@ -1,0 +1,245 @@
+* {
+  transition: ease-in;
+  transition-delay: 0.2;
+  transition-duration: 0.2;
+  border-color: none;
+  /* background-image:url('../'); */
+}
+a {
+  color: rgb(39, 39, 66) !important;
+}
+.tableBtn {
+  background-color: #3b82f6 !important;
+  color: white;
+}
+
+.user-bar button {
+  box-shadow: 2px 1px 7px rgb(165, 185, 238);
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* =============common======== */
+.card {
+  padding: 10px 15px;
+  border: 1px dotted rgb(207, 189, 174);
+  background-color: white;
+  border-radius: 5px;
+}
+
+.card-2 {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.card-3 {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 5px;
+}
+
+.primary {
+  background-color: #1565c0 !important;
+  color: rgb(255, 255, 255) !important;
+}
+.primary:hover {
+  background-color: #4b81bf !important;
+}
+.danger {
+  background-color: #f50057 !important;
+  color: white;
+}
+.danger:hover {
+  background-color: #f44280 !important;
+}
+/* =============common======== */
+
+.background {
+  background-image: url("../src/assets/images/bac\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-container {
+  max-height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.text-container::after {
+  content: "...";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 4px;
+}
+
+.description_ul {
+  list-style-type: disc;
+}
+
+.ng_state {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.product_btns button:first-child {
+  background-color: rgb(114, 25, 231);
+}
+
+.products-temple button {
+  background-color: rgb(114, 25, 231);
+}
+
+.blue-btn {
+  background-color: rgb(65, 109, 230);
+}
+
+.exhi_words {
+  overflow: hidden;
+  overflow-y: inherit;
+
+  gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 160px;
+  padding: 1px 7px 7px 7px;
+  border-radius: 5px;
+  text-overflow: ellipsis;
+}
+
+.ng-card {
+  box-shadow: 0.5px 0.5px 1px gray;
+}
+
+.exhi_word {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 4px 3px;
+  border-radius: 3px;
+  width: 100px;
+  height: 40px;
+  border: 1px solid gainsboro;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.exhi_word svg {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  width: 15px;
+  height: 15px;
+}
+
+.activate_ng {
+  color: rgb(236, 190, 104);
+}
+
+.disabled_ng {
+  color: gray;
+}
+
+.products-list {
+  text-align: center;
+}
+
+.img-box {
+  height: 304px;
+  width: 80px;
+  overflow: hidden;
+  overflow-x: hidden;
+  padding: 10px;
+  border: 1px solid rgb(203, 203, 203);
+}
+
+.product-item img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.product-item {
+  width: 117px;
+  min-width: 117px;
+  height: 7rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  transition: 0.3s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.exhi_word_item {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-item:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.products-temple {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  height: 11rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid rgb(230, 218, 218);
+  padding: 10px;
+  /* overflow-x:scroll;   */
+  overflow-x: inherit;
+  overflow-y: hidden;
+}
+
+.products-temple .check-kind {
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(211, 166, 129);
+}
+
+.ng-main-content label {
+  width: 104px;
+  min-width: 104px;
+}
+.border-gray-400 {
+  border-color: rgb(195, 195, 201);
+}
+.ant-pagination-item {
+  border-color: #7e89ec !important;
+}
+.logo {
+  color: black;
+}
+dl div {
+  border-color: rgb(209, 206, 206) !important;
+}
+.ant-upload-list-text {
+  margin-left: 5px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+@media only screen and (max-width: 1200px) {
+  .main-table {
+    max-width: 60vw !important;
+  }
+}
+@media only screen and (max-width: 1141px) {
+  .main-table {
+    max-width: 60vw !important;
+  }
+  .gutter-row:first-child {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-table {
+    max-width: 50vw !important;
+  }
+}
